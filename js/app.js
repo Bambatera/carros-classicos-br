@@ -13,25 +13,29 @@ function buscarCarros() {
     for (let carro of carros) {
         let marca = carro.marca.toLocaleLowerCase();
         let modelo = carro.nome.toLocaleLowerCase();
-        let tag = carro.tag.toLocaleUpperCase();
+        let tag = carro.tag.toLocaleLowerCase();
 
         if (marca.includes(input.toLocaleLowerCase()) || modelo.includes(input.toLocaleLowerCase()) || tag.includes(input.toLocaleLowerCase())) {
             resultados += `<div class="card">
-                            <img src="${carro.foto}" alt="#" class="foto">
-                            <h3 class="card-title">${carro.marca} ${carro.nome}</h3>
-                            <div class="card-attribute">
-                                Ano: ${carro.ano}
+                            <div class="card-image">
+                                <img src="${carro.foto}" alt="#" class="card-image">
                             </div>
-                            <div class="card-attribute">
-                                Motor: ${carro.motor}
+                            <div class="card-content">
+                                <h3 class="card-title">${carro.marca} ${carro.nome}</h3>
+                                <div class="card-attribute">
+                                    Ano: ${carro.ano}
+                                </div>
+                                <div class="card-attribute">
+                                    Motor: ${carro.motor}
+                                </div>
+                                <div class="card-attribute">
+                                    Potência: ${carro.potencia} CV
+                                </div>
+                                <div class="card-attribute">
+                                    Peso: ${carro.peso} Kg
+                                </div>
                             </div>
-                            <div class="card-attribute">
-                                Potência: ${carro.potencia} CV
-                            </div>
-                            <div class="card-attribute">
-                                Peso: ${carro.peso} Kg
-                            </div>
-                        </div><br/>`;
+                        </div>`;
 
         }
     }
