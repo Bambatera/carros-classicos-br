@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Carros Clássicos Brasileiros</title>
+        <link rel="stylesheet" href="./css/styles.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>Carros Clássicos Brasileiros</h1>
+        </header>
+
+        <main>
+            <section>
+                <input id="busca-carros" type="text" placeholder="Busque um carro pelo nome ou marca">
+                <button onclick="buscarCarros()">Pesquisar</button>
+            </section>
+            <section class="card-container">
+                <div id="cartas">
+                    <div class="card">
+                        <img src="./images/volkswagen/Gol-GT.jpg" alt="#" class="foto">
+                        <h3 class="card-title">Gol GT</h3>
+                        <div class="card-attribute">
+                            Ano: 1982
+                        </div>
+                        <div class="card-attribute">
+                            Motor: 1.6L 4 cilindros
+                        </div>
+                        <div class="card-attribute">
+                            Potência: 92 cv
+                        </div>
+                        <div class="card-attribute">
+                            Peso: 1040 Kg
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <script src="./js/carros.js"></script>
+        <script src="./js/app.js"></script>
+    </body>
+
+</html>
