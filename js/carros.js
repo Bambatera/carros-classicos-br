@@ -6,7 +6,8 @@ const carros = [
         motor: "4.1L 6 cilindros",
         potencia: 171,
         peso: 1315,
-        foto: "../images/Chevrolet/Opala.jpg"
+        foto: "../images/Chevrolet/Opala.jpg",
+        tag: "gm genaral motors"
     },
     {
         marca: "Chevrolet",
@@ -15,7 +16,8 @@ const carros = [
         motor: "1.6L 4 cilindros",
         potencia: 72,
         peso: 890,
-        foto: "../images/Chevrolet/chevette.jpg"
+        foto: "../images/Chevrolet/chevette.jpg",
+        tag: "gm genaral motors"
     },
     {
         marca: "Chevrolet",
@@ -24,7 +26,8 @@ const carros = [
         motor: "2.0L 4 cilindros",
         potencia: 110,
         peso: 1080,
-        foto: "../images/Chevrolet/monza.jpg"
+        foto: "../images/Chevrolet/monza.jpg",
+        tag: "gm genaral motors"
     },
     {
         marca: "Chevrolet",
@@ -33,7 +36,8 @@ const carros = [
         motor: "2.0L 4 cilindros",
         potencia: 121,
         peso: 1060,
-        foto: "../images/Chevrolet/kadett.jpg"
+        foto: "../images/Chevrolet/kadett.jpg",
+        tag: "gm genaral motors"
     },
     {
         marca: "Chevrolet",
@@ -42,7 +46,8 @@ const carros = [
         motor: "4.1L 6 cilindros",
         potencia: 171,
         peso: 1350,
-        foto: "../images/Chevrolet/Caravan.jpg"
+        foto: "../images/Chevrolet/Caravan.jpg",
+        tag: "gm genaral motors"
     },
     {
         marca: "Volkswagen",
@@ -51,7 +56,8 @@ const carros = [
         motor: "1.6L 4 cilindros",
         potencia: 85,
         peso: 950,
-        foto: "../images/Volkswagen/passat.jpg"
+        foto: "../images/Volkswagen/passat.jpg",
+        tag: "vw volks"
     },
     {
         marca: "Volkswagen",
@@ -60,7 +66,8 @@ const carros = [
         motor: "1.8L 4 cilindros",
         potencia: 92,
         peso: 1040,
-        foto: "../images/Volkswagen/santana.jpg"
+        foto: "../images/Volkswagen/santana.jpg",
+        tag: "vw volks"
     },
     {
         marca: "Volkswagen",
@@ -69,7 +76,8 @@ const carros = [
         motor: "1.8L 4 cilindros",
         potencia: 99,
         peso: 920,
-        foto: "../images/Volkswagen/Gol-GT.jpg"
+        foto: "../images/Volkswagen/Gol-GT.jpg",
+        tag: "vw volks"
     },
     {
         marca: "Volkswagen",
@@ -78,7 +86,8 @@ const carros = [
         motor: "1.6L 4 cilindros",
         potencia: 81,
         peso: 950,
-        foto: "../images/Volkswagen/parati.jpg"
+        foto: "../images/Volkswagen/parati.jpg",
+        tag: "vw volks"
     },
     {
         marca: "Volkswagen",
@@ -87,7 +96,8 @@ const carros = [
         motor: "1.6L 4 cilindros",
         potencia: 58,
         peso: 800,
-        foto: "../images/Volkswagen/fusca.jpg"
+        foto: "../images/Volkswagen/fusca.jpg",
+        tag: "vw volks"
     },
     {
         marca: "Fiat",
@@ -96,7 +106,8 @@ const carros = [
         motor: "1.3L 4 cilindros",
         potencia: 61,
         peso: 800,
-        foto: "../images/Fiat/147.jpg"
+        foto: "../images/Fiat/147.jpg",
+        tag: ""
     },
     {
         marca: "Fiat",
@@ -105,7 +116,8 @@ const carros = [
         motor: "1.5L 4 cilindros",
         potencia: 71,
         peso: 900,
-        foto: "../images/Fiat/premio.jpg"
+        foto: "../images/Fiat/premio.jpg",
+        tag: ""
     },
     {
         marca: "Fiat",
@@ -114,7 +126,8 @@ const carros = [
         motor: "1.5L 4 cilindros",
         potencia: 81,
         peso: 950,
-        foto: "../images/Fiat/elba.jpg"
+        foto: "../images/Fiat/elba.jpg",
+        tag: ""
     },
     {
         marca: "Fiat",
@@ -123,7 +136,8 @@ const carros = [
         motor: "1.5L 4 cilindros",
         potencia: 86,
         peso: 880,
-        foto: "../images/Fiat/uno.jpg"
+        foto: "../images/Fiat/uno.jpg",
+        tag: ""
     },
     {
         marca: "Ford",
@@ -132,7 +146,8 @@ const carros = [
         motor: "1.6L 4 cilindros",
         potencia: 90,
         peso: 950,
-        foto: "../images/ford/corcel_2.jpg"
+        foto: "../images/ford/corcel_2.jpg",
+        tag: ""
     },
     {
         marca: "Ford",
@@ -141,7 +156,8 @@ const carros = [
         motor: "1.6L 4 cilindros",
         potencia: 85,
         peso: 1050,
-        foto: "../images/ford/delrey.jpg"
+        foto: "../images/ford/delrey.jpg",
+        tag: ""
     },
     {
         marca: "Ford",
@@ -150,7 +166,8 @@ const carros = [
         motor: "1.6L 4 cilindros",
         potencia: 82,
         peso: 920,
-        foto: "../images/ford/xr3.jpg"
+        foto: "../images/ford/xr3.jpg",
+        tag: ""
     },
     {
         marca: "Ford",
@@ -159,7 +176,8 @@ const carros = [
         motor: "1.6L 4 cilindros",
         potencia: 73,
         peso: 1040,
-        foto: "../images/ford/pampa.jpg"
+        foto: "../images/ford/pampa.jpg",
+        tag: ""
     },
     {
         marca: "Ford",
@@ -168,6 +186,7 @@ const carros = [
         motor: "1.8L 4 cilindros",
         potencia: 99,
         peso: 980,
-        foto: "../images/ford/verona.jpg"
+        foto: "../images/ford/verona.jpg",
+        tag: ""
     }
 ];

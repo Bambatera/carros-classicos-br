@@ -21,3 +21,8 @@
     align-self: center;
     width: 150px;
 }
+
+.aviso {
+    font-weight: bolder;
+    color: chocolate;
+}
